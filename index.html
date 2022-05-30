@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Ping coming soon</title>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="./css/responsive.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- EXTERNAL STYLES -->
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <!-- EXTERNAL SCRIPT -->
+  <script defer src="./main.js"></script>
+</head>
+
+<body>
+  <main>
+    <section class="container container-sign-up">
+      <div>
+        <div class="logo">
+          <img src="./images/logo.svg" alt="ping.">
+        </div>
+
+        <header>
+          <h1>We are launching <span>soon!</span></h1>
+          <h2 class="sub-header">Subscribe and get notified</h2>
+        </header>
+      </div>
+
+      <div>
+        <form class="email-form" id="form" action="/" novalidate>
+          <label for="email"></label>
+          <input id="email" type="email" name="email" placeholder="Your email address...">
+
+          <label for="submit"></label>
+          <button id="submit" class="btn btn-submit" type="submit">Notify Me</button>
+        </form>
+      </div>
+
+      <small id="emailErr">Please provide a valid email address</small>
+      <small id="emptyEmail">Whoops! It looks like you forgot to add your email</small>
+    </section>
+
+    <section class="container container-graph">
+      <img src="./images/illustration-dashboard.png" alt="website layout with graphs">
+    </section>
+
+    <footer>
+      <div class="media-icons">
+        <a href="#" class="icon-wrapper facebook" aria-label="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+
+        <a href="#" class="icon-wrapper twitter" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a>
+
+        <a href="#" class="icon-wrapper instagram" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <div class="copyright">
+        <small>&copy; Copyright Ping. All rights reserved.</small>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

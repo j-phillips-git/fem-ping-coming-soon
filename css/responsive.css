@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px) {
+  .container-sign-up {margin-bottom: 90px;}
+
+  .logo {width: 90px}
+
+  h1 {margin: 40px 0 16px;}
+
+  .sub-header {margin-bottom: 40px;}
+
+  .email-form {flex-direction: row;}
+
+  .email-form input {margin: 0 16px 0 0;}
+
+  .btn-submit {
+    width: 17.45%;
+    max-width: 200px;
+  }
+
+  .btn-submit:hover {opacity: 0.8;}
+
+  footer {margin-top: 72px;}
+
+  .media-icons {margin-bottom: 25px;}
+
+  .icon-wrapper:hover {
+    background-color: var(--clr-accent);
+    border: 1px solid var(--clr-light-blue);
+  } 
+
+  .icon-wrapper:hover > .fa-brands {color: var(--clr-white);} 
+
+  #emailErr {margin-right: 332px;}
+
+  #emptyEmail {margin-right: 250px;}
+}
+

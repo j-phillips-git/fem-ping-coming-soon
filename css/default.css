@@ -1,0 +1,52 @@
+:root {
+  --clr-bold: #15202a;
+  --clr-light-grey: #969696;
+  --clr-light-blue: #b8c7ed;
+  --clr-accent: #4c7bf3;
+  --clr-white: #fff;
+  --clr-err: #FF5466;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 28px;
+}
+
+button {cursor: pointer;}
+
+img {width: 100%;}
+
+a {text-decoration: none;}
+
+h1,
+.copyright small {color: var(--clr-light-grey);}
+
+h1 span,
+.sub-header {color: var(--clr-bold);}
+
+.email-form input {color: var(--clr-light-blue);}
+
+.email-form input:focus {
+  outline: none;
+  border: 1px solid var(--clr-accent  );
+}
+
+.btn-submit {color: var(--clr-white);}
+
+.fa-brands {color: var(--clr-accent);}
+
+

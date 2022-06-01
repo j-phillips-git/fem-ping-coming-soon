@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://jordanphillips-hub.github.io/ping-coming-soon/]
+- Live Site URL: [https://j-phillips-git.github.io/fem-ping-coming-soon/]
 
 ### Built with
 
